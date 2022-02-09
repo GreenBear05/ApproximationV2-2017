@@ -1,0 +1,18 @@
+﻿<Window x:Class="ApproximationV2.WindowData"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApproximationV2"
+        mc:Ignorable="d"
+        Title="WindowData" Height="300" Width="385.836">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonGraf" Content="Построить график" Margin="85,215,0,0" Click="ButtonGraf_Click" HorizontalAlignment="Left" Width="190" Height="20" VerticalAlignment="Top"/>
+        <Label x:Name="labelData" Content="text" Margin="10,50,0,0" HorizontalAlignment="Left" Width="344" Height="26" VerticalAlignment="Top"/>
+        <GroupBox Header="" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="358"/>
+
+    </Grid>
+</Window>
